@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trend Flow | Profile</title>
+    <link
+      rel="stylesheet"
+      href="../MDB5-STANDARD-UI-KIT-Free-7/css/mdb.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styel2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="navbarParent">
+      <div
+        class="navbarTop d-flex justify-content-between align-items-center p-2"
+      >
+        <div class="w-25">
+          <div class="d-flex align-items-center justify-content-start ms-5">
+            <img
+              src="../Image_Login/trend-flow-high-resolution-logo-transparent.png"
+              class="me-3 ms-1"
+              height="50px"
+              alt=""
+              srcset=""
+            />
+            <div class="fw-bold name text-black">Trend Flow.</div>
+          </div>
+        </div>
+        <div class="w-50">
+          <div class="form-outline shadow-sm d-flex search m-auto">
+            <div for="">
+              <i class="text-dark fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="search"
+              id="form1"
+              class="w-100"
+              aria-label="Search"
+              placeholder="Search Trend Flow"
+            />
+          </div>
+        </div>
+        <div class="w-25">
+          <div class="d-flex align-items-between justify-content-center">
+            <a
+              class="fw-bold text-black me-5"
+
+              href="../AboutUs/About_us.html"
+              >About</a
+            >
+            <a class="fw-bold text-black" href="../Support/Support.html"
+              >Support</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="container-fluid px-5 body">
+      <div class="row mt-4">
+        <div class="col-2 mt-3" data-aos="fade-right">
+          <div class="userNavbar p-2">
+            <div class="userMenu shadow mb-3">
+              <a class="text-dark" href="../Dashboard/Dashboard.html">
+                <div class="eachMenu top p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-house"></i>
+                    </div>
+                    <div class="ms-1">Home</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Friend/Friend.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-user"></i>
+                    </div>
+                    <div class="ms-1">Friend</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Group/Group.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="ms-1">Group</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Message/message.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-message"></i>
+                    </div>
+                    <div class="ms-1">Messages</div>
+                  </div>
+                </div>
+              </a>
+
+              <a class="text-dark" href="../index.html">
+                <div class="eachMenu bottom p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-right-from-bracket"></i>
+                    </div>
+                    <div class="ms-1">Logout</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="profile rounded-5 w-100 p-3 shadow mb-3">
+              <div class="">
+                <p class="fw-bold text-dark">Notification</p>
+              </div>
+              <div class="notification" id="_notification"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 px-3 postView mt-4" data-aos="fade-up">
+          <div class="position-relative">
+            <img
+              class="coverPhoto"
+              src="https://i.ytimg.com/vi/T6kTqxbPr3U/maxresdefault.jpg"
+              alt=""
+            />
+            <div
+              class="personalProfile profileAbsolute position-absolute p-3 w-100 d-flex align-items-center justify-content-between"
+            >
+              <div class="d-flex align-items-center profileTrans">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                  class="img img-thumbnail rounded-circle me-3"
+                  alt="Black and White Portrait of a Man"
+                  width="200"
+                  loading="lazy"
+                />
+                <div class="ms-3 userName">
+                  <div class="text-dark fs-1"><b>Moe Yan Htun</b></div>
+                  <div class="text-dark fs-5 fw-bolder">1.4K Freinds</div>
+                </div>
+              </div>
+              <div class="me-3">
+                <button class="btn fs-6 me-2 btn-primary">
+                  <b class="fw-bold me-2"><i class="fa-solid fa-plus"></i></b
+                  >Add to Story
+                </button>
+                <button class="btn fs-6 btn-dark">
+                  <b class="fw-bold me-2"><i class="fa-solid fa-pen"></i></b
+                  >Edit Profile
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="profile profilePageNav w-100 p-2 shadow rounded-5">
+            <div class="d-flex py-2 justify-content-between align-items-center">
+              <div class="">
+                <a
+                  href=""
+                  class="eachNav eachNavActive rounded-5 p-3 me-1 text-dark fw-bold"
+                  >Posts</a
+                >
+                <a href="" class="eachNav rounded-5 p-3 me-1 text-dark fw-bold"
+                  >About</a
+                >
+                <a href="" class="eachNav rounded-5 p-3 me-1 text-dark fw-bold"
+                  >Friends</a
+                >
+                <a href="" class="eachNav rounded-5 p-3 me-1 text-dark fw-bold"
+                  >Photo</a
+                >
+                <a href="" class="eachNav rounded-5 p-3 me-1 text-dark fw-bold"
+                  >Video</a
+                >
+              </div>
+              <div class="fs-5">
+                <a href=""><i class="text-dark me-3 fa-solid fa-bars"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="row px-1 mt-3">
+            <div class="col-5 p-1">
+              <div
+                class="profile profilePageSlide1 shadow p-2 pb-3 mb-3 rounded-5"
+              >
+                <div class="fs-5 text-dark fw-bolder p-1">Intro</div>
+                <p class="m-atuo text-center px-5">
+                  “Don’t just tell me you’re going to change. Do it! Actions
+                  speak louder than words.”
+                </p>
+                <div class="px-3">
+                  <div class="">
+                    <button class="btn btn-dark w-100">Edit Bio</button>
+                  </div>
+                  <div class="mt-3">
+                    <a href="" class="d-flex text-center text-dark">
+                      <p><i class="me-3 fa-solid fa-building-columns"></i></p>
+                      <p>Student at <b>GUSTO University</b></p>
+                    </a>
+                    <a href="" class="d-flex text-center text-dark">
+                      <p><i class="me-3 fa-solid fa-graduation-cap"></i></p>
+                      <p>Studied at <b>GUSTO University</b></p>
+                    </a>
+                    <a href="" class="d-flex text-center text-dark">
+                      <p><i class="me-3 fa-solid fa-house-chimney"></i></p>
+                      <p>Live in <b>Yangon</b></p>
+                    </a>
+                    <a href="" class="d-flex text-center text-dark">
+                      <p><i class="me-3 fa-solid fa-location-dot"></i></p>
+                      <p>From <b>Myeik, Myanmar</b></p>
+                    </a>
+                    <a href="" class="d-flex text-center text-dark">
+                      <p><i class="me-3 fa-brands fa-linkedin"></i></p>
+                      <p><b>Moe Yan Htun</b></p>
+                    </a>
+                    <div class="">
+                      <button class="btn btn-dark w-100">Edit Details</button>
+                    </div>
+                    <div class="p-1 row mt-1">
+                      <div class="col-4 p-1">
+                        <div class="feature shadow">
+                          <img
+                            class="w-100 h-100 img rounded-5"
+                            src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/414205767_3544959945833757_8330592855513660431_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MhfRMfUV494Q7kNvgE5EAUt&_nc_ht=scontent-sin6-2.xx&oh=00_AYC-QqCza-fv__feDl6ySFQvYuM4ga6Nuf5TFqC3gkaltA&oe=66444672"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center fw-bold text-dark">My Girl</div>
+                      </div>
+                      <div class="col-4 p-1">
+                        <div class="feature shadow">
+                          <img
+                            class="w-100 h-100 img rounded-5"
+                            src="https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/342353019_223881886901646_3662104331413355436_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ol-B9IrFuFcQ7kNvgFjJ6Jg&_nc_ht=scontent-sin6-4.xx&oh=00_AYDTh6oLWMvtVMDR3ck1CaVQvHpEK8E_-GSQjA5wDhuPeQ&oe=6648E5BE"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center fw-bold text-dark">
+                          Hot Mode
+                        </div>
+                      </div>
+                      <div class="col-4 p-1">
+                        <div class="feature shadow">
+                          <img
+                            class="w-100 h-100 img rounded-5"
+                            src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/314472750_499093718944526_7615122975821880626_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zi_vgGstPOIQ7kNvgGUbB1B&_nc_ht=scontent-sin6-2.xx&oh=00_AYARmzINqieFwYkWLuOV5uiaB6ntEpBrrsJUQBZVxC__ng&oe=6648FE42"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center fw-bold text-dark">
+                          Collection
+                        </div>
+                      </div>
+                    </div>
+                    <div class="">
+                      <button class="btn btn-dark w-100">Edit Feature</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="profile profilePageSlide1 shadow p-3 mb-3 rounded-5">
+                <div
+                  class="fs-6 text-dark d-flex justify-content-between align-items-center"
+                >
+                  <div class="fw-bolder">Photos</div>
+                  <a href="">See All Photos</a>
+                </div>
+                <div class="row px-4 py-1 pb-2" id="profilePagePhoto">
+                  <div class="col-4 p-1">
+                    <img
+                      class="w-100"
+                      src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="profile profilePageSlide1 shadow px-4 py-3 mb-3">
+                <div
+                  class="fs-6 text-dark d-flex justify-content-between align-items-center"
+                >
+                  <div class="fw-bolder fs-5">Friends</div>
+                  <a href="">See All Friends</a>
+                </div>
+                <div class="row p-2" id="profilePageFriends">
+                  <div class="col-4">
+                    <img
+                      width="200px"
+                      height="200px"
+                      src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                      alt=""
+                    />
+                    <p class="fs-5 fw-bold text-dark text-center">Aung Thant</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-7 p-1">
+              <div class="profile profilePageSlide1 shadow p-3 rounded-5">
+                <div class="d-flex">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="ms-1 me-3 profileIcon rounded-circle"
+                    height="55"
+                    loading="lazy"
+                  />
+                  <div
+                    class="form-outline shadow-sm d-flex search m-auto"
+                    data-mdb-input-init
+                  >
+                    <div for="">
+                      <i class="text-dark fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input
+                      type="search"
+                      id="form1"
+                      class="w-100"
+                      aria-label="Search"
+                      placeholder="What's on Your?"
+                    />
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-4 rounded-5">
+                    <div
+                      id="like-btn"
+                      class="d-flex p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fs-4 me-3 fa-video text-danger"></i>
+                      <div class="fw-bolder me-3">Live Video</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      class="d-flex p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fs-4 me-3 fa-images text-success"></i>
+                      <div class="fw-bolder me-3">Photo/Video</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      id="share-btn"
+                      class="d-flex p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <i
+                        class="fa-solid fs-4 me-3 fa-calendar-days text-primary"
+                      ></i>
+                      <div class="fw-bolder me-3">Event</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="profile profilePageSlide1 mt-2 shadow p-3 rounded-5">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="fs-5"><b>Post Lists View</b></div>
+                  <div class="">
+                    <a href="" class="btn btn-dark p-3"
+                      ><i class="fa-solid fa-sliders me-3"></i>Filters</a
+                    >
+                    <a href="" class="btn btn-dark p-3"
+                      ><i class="fa-solid fa-gear me-3"></i>Manage Posts</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="personalPostLists mt-2">
+                <div class="profile shadow py-2 px-3 w-100 rounded-5">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                        class="rounded-circle me-3"
+                        height="55"
+                        alt="Black and White Portrait of a Man"
+                        loading="lazy"
+                      />
+                      <div class="userName">
+                        <div class="text-dark"><b>Moe Yan Htun</b></div>
+                        <div class=""><small>1 Day Ago</small></div>
+                      </div>
+                    </div>
+                    <div class="">
+                      <i class="fs-4 fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+                  <div class="card w-100 personalPost">
+                    <img
+                      src="https://images.hindustantimes.com/tech/img/2022/09/07/960x540/APPLE-EVENT-PRODUCTS-1_1646799206724_1662538450042_1662538450042.JPG"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <img
+                          src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                          class="rounded-circle me-3"
+                          height="55"
+                          alt="Black and White Portrait of a Man"
+                          loading="lazy"
+                        />
+                        <div class="userName">
+                          <div class="text-dark"><b>Tim cook</b></div>
+                          <div class=""><small>1 Day Ago</small></div>
+                        </div>
+                      </div>
+                      <p class="card-text text-dark">
+                        Tim Cook picked up the mantle from Steve Jobs as CEO of
+                        Apple over a decade ago and grew it into a
+                        multi-trillion dollar company. Now, as Cook nears
+                        traditional retirement age, speculation abounds about
+                        who will succeed him.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between mt-2">
+                    <div class="d-flex p-2 text-dark">
+                      <i class="fs-4 fa-solid fa-heart me-3"></i>
+                      <div id="_reactionCount">10</div>
+                    </div>
+                    <div class="d-flex p-2 text-dark">
+                      <i class="fs-4 fa-solid fa-share me-3"></i>
+                      <div id="_shareCount">14</div>
+                    </div>
+                  </div>
+
+                  <div class="actionLog p-3">
+                    <div class="row">
+                      <div class="col-4">
+                        <div
+                          id="like-btn"
+                          class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                        >
+                          <div class="me-3">Love</div>
+                          <i class="fs-4 fa-solid fa-heart"></i>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div
+                          class="d-flex like-button actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                        >
+                          <div class="me-3">Comment</div>
+                          <i class="fs-4 fa fa-comment"></i>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div
+                          id="share-btn"
+                          class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                        >
+                          <div class="me-3">Share</div>
+                          <i class="fs-4 fa-solid fa-share"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="personalOtherPost" id="otherPersonalPost"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="userNavbar px-2 py-3 mt-3 col-3" data-aos="fade-left">
+          <div class="profile w-100 p-3 shadow mb-3 rounded-5">
+            <div class="messageBoxHeader d-flex">
+              <div class="messageHeader text-dark fw-bold">Message</div>
+              <div class="messageLogo">
+                <i class="fs-5 fw-bold text-dark fa-solid fa-pen-to-square"></i>
+              </div>
+            </div>
+            <div
+              class="searchBox shadow-sm form-outline d-flex search my-3 m-auto"
+              data-mdb-input-init
+            >
+              <div for="">
+                <i class="text-dark fa-solid fa-magnifying-glass"></i>
+              </div>
+              <input
+                type="search"
+                id="form1"
+                class="w-100"
+                aria-label="Search"
+                placeholder="Search Message"
+              />
+            </div>
+            <div class="messageScroll" id="_messageChatProfile"></div>
+          </div>
+          <hr />
+          <div class="profile w-100 p-3 shadow mb-3 rounded-5">
+            <div class="">
+              <p class="fw-bold text-dark">Friend Requests</p>
+            </div>
+            <div class="friendRequest" id="personalFriend"></div>
+          </div>
+        </div>
+        <footer class="">
+          <div
+            class="d-flex justify-content-between align-items-center text-dark"
+          >
+            <p>© 2024 Trend Flow. All rights reserved.</p>
+            <p>
+              Need help? Email us at
+              <a href="mailto:support@trendflow.com">support@trendflow.com</a>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  <script src="../MDB5-STANDARD-UI-KIT-Free-7/js/mdb.umd.min.js"></script>
+  <script src="./index.js"></script>
+  <script src="./profile.js"></script>
+</html>

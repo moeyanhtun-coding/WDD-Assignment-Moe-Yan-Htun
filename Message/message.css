@@ -1,0 +1,37 @@
+:root {
+  --primary-color: rgba(52, 152, 219, 1);
+  --light-blue: rgba(72, 201, 255, 1);
+  --dark-blue: rgba(44, 62, 80, 1);
+  --dark-blue-hover: rgb(31, 45, 58);
+  --ocean-blue: rgba(0, 119, 190, 1);
+  --sky-blue: rgb(181, 220, 236);
+  --background-color: rgba(135, 206, 235, 1);
+}
+.messageChatBody {
+  border-radius: 20px;
+  height: 60vh;
+  overflow: auto;
+}
+.messageChatBody::-webkit-scrollbar {
+  display: none;
+}
+.postView {
+  background-color: var(--sky-blue);
+}
+
+.textBackground {
+  background-color: var(--ocean-blue);
+}
+
+.backgroundColor {
+  background-color: var(--sky-blue);
+}
+.navbarTop {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: var(--sky-blue);
+}
+.chatBody {
+  height: max-content;
+}

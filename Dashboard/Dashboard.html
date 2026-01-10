@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trend Flow | Home</title>
+    <link
+      rel="stylesheet"
+      href="../MDB5-STANDARD-UI-KIT-Free-7/css/mdb.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/Dashboard/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./footer.css" />
+  </head>
+  <body>
+    <div class="navbarParent">
+      <div
+        class="navbarTop d-flex justify-content-between align-items-center p-2"
+      >
+        <div class="w-25">
+          <div class="d-flex align-items-center justify-content-start ms-5">
+            <img
+              src="../Image_Login/trend-flow-high-resolution-logo-transparent.png"
+              class="me-3 ms-1"
+              height="50px"
+              alt=""
+              srcset=""
+            />
+            <div class="fw-bold text-dark name">Trend Flow.</div>
+          </div>
+        </div>
+        <div class="w-50">
+          <div class="form-outline shadow-sm d-flex search m-auto">
+            <div for="">
+              <i class="text-dark fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="search"
+              id="form1"
+              class="w-100"
+              aria-label="Search"
+              placeholder="Search Trend Flow"
+            />
+          </div>
+        </div>
+        <div class="w-25">
+          <div class="d-flex align-items-between justify-content-center">
+            <a class="fw-bold text-black me-5" href="../AboutUs/About_us.html"
+              >About</a
+            >
+            <a class="fw-bold text-black" href="../Support/Support.html"
+              >Support</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="container-fluid px-5 body">
+      <div class="row mt-2">
+        <div class="col-2" data-aos="fade-right">
+          <div class="userNavbar p-2">
+            <a href="../Profile/Profile.html">
+              <div class="profile w-100 p-3 mt-2 shadow d-flex mb-3">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                  class="rounded-circle me-3"
+                  height="55"
+                  alt="Black and White Portrait of a Man"
+                  loading="lazy"
+                />
+                <div class="userName">
+                  <div class="text-dark"><b>Moe Yan Htun</b></div>
+                  <div class="text-dark">@moeyan</div>
+                </div>
+              </div>
+            </a>
+            <div class="userMenu shadow mb-3">
+              <a class="text-dark" href="">
+                <div class="eachMenu eachMenuActive top p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-house"></i>
+                    </div>
+                    <div class="ms-1">Home</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Friend/Friend.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-user"></i>
+                    </div>
+                    <div class="ms-1">Friend</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Group/Group.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="ms-1">Group</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Message/message.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-message"></i>
+                    </div>
+                    <div class="ms-1">Messages</div>
+                  </div>
+                </div>
+              </a>
+
+              <a class="text-dark" href="../index.html">
+                <div class="eachMenu bottom p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-right-from-bracket"></i>
+                    </div>
+                    <div class="ms-1">Logout</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="profile w-100 p-3 shadow mb-3">
+              <div class="">
+                <p class="fw-bold text-dark">Notification</p>
+              </div>
+              <div class="notification" id="_notification"></div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="col-7 px-3 postView">
+          <div class="postCreateInputBox mt-3 d-flex justify-content-between">
+            <div class="">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                class="rounded-circle me-3"
+                height="40"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+              <input type="text" placeholder="What's on your mind ?" />
+            </div>
+            <button class="btn btnCustom">Create</button>
+          </div>
+          <div class="">
+            <div class="profile shadow py-2 px-3 mt-3 w-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle me-3"
+                    height="55"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  />
+                  <div class="userName">
+                    <div class="text-dark"><b>Moe Yan Htun</b></div>
+                    <div class=""><small>1 Day Ago</small></div>
+                  </div>
+                </div>
+                <div class="">
+                  <i class="fs-4 fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <p>
+                A paragraph is defined as “a group of sentences or a single
+                sentence that forms a unit” (Lunsford and Connors 116).
+              </p>
+              <div class="pb-2">
+                <img src="./postImg/image.png" class="w-100 rounded-5" alt="" />
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex p-2">
+                  <i class="fs-4 fa-solid fa-heart me-3"></i>
+                  <div id="_reactionCount">10</div>
+                </div>
+                <div class="d-flex p-2">
+                  <i class="fs-4 fa-solid fa-share me-3"></i>
+                  <div id="_shareCount">14</div>
+                </div>
+              </div>
+
+              <div class="actionLog p-3">
+                <div class="row">
+                  <div class="col-4">
+                    <div
+                      id="like-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Love</div>
+                      <i class="fs-4 fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      class="d-flex like-button actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Comment</div>
+                      <i class="fs-4 fa fa-comment"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      id="share-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Share</div>
+                      <i class="fs-4 fa-solid fa-share"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="postList">
+            <div class="profile shadow py-2 px-3 mt-3 w-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle me-3"
+                    height="55"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  />
+                  <div class="userName">
+                    <div class="text-dark"><b>Moe Yan Htun</b></div>
+                    <div class=""><small>1 Day Ago</small></div>
+                  </div>
+                </div>
+                <div class="">
+                  <i class="fs-4 fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <p>
+                A paragraph is defined as “a group of sentences or a single
+                sentence that forms a unit” (Lunsford and Connors 116).
+              </p>
+              <div class="pb-2">
+                <img src="./postImg/image.png" class="w-100 rounded-5" alt="" />
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex p-2">
+                  <i class="fs-4 fa-solid fa-heart me-3"></i>
+                  <div id="_reactionCount">10</div>
+                </div>
+                <div class="d-flex p-2">
+                  <i class="fs-4 fa-solid fa-share me-3"></i>
+                  <div id="_shareCount">14</div>
+                </div>
+              </div>
+
+              <div class="actionLog p-3">
+                <div class="row">
+                  <div class="col-4">
+                    <div
+                      id="like-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Love</div>
+                      <i class="fs-4 fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      class="d-flex like-button actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Comment</div>
+                      <i class="fs-4 fa fa-comment"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      id="share-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Share</div>
+                      <i class="fs-4 fa-solid fa-share"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="userNavbar px-2 py-3 col-3">
+          <div class="profile w-100 p-3 shadow mb-3">
+            <div class="messageBoxHeader d-flex">
+              <div class="messageHeader text-dark fw-bold">Message</div>
+              <div class="messageLogo">
+                <i class="fs-5 fw-bold text-dark fa-solid fa-pen-to-square"></i>
+              </div>
+            </div>
+            <div
+              class="searchBox shadow-sm form-outline d-flex search my-3 m-auto"
+              data-mdb-input-init
+            >
+              <div for="">
+                <i class="text-dark fa-solid fa-magnifying-glass"></i>
+              </div>
+              <input
+                type="search"
+                id="form1"
+                class="w-100"
+                aria-label="Search"
+                placeholder="Search Message"
+              />
+            </div>
+            <div class="messageScroll" id="_messageChatProfile"></div>
+          </div>
+          <hr />
+          <div class="profile w-100 p-3 shadow mb-3">
+            <div class="">
+              <p class="fw-bold text-dark">Friend Requests</p>
+            </div>
+            <div class="friendRequest" id="_friendRequest"></div>
+          </div>
+          <footer
+            class=""
+            style="
+              padding-right: 50px !important;
+              padding-left: 50px !important;
+            "
+          >
+            <div
+              class="d-flex justify-content-between align-items-center text-dark"
+            >
+              <p>© 2024 Trend Flow. All rights reserved.</p>
+              <p>
+                Need help? Email us at
+                <a href="mailto:support@trendflow.com">support@trendflow.com</a>
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  <script src="../MDB5-STANDARD-UI-KIT-Free-7/js/mdb.umd.min.js"></script>
+  <script src="./index.js"></script>
+</html>

@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --primary-color: rgba(52, 152, 219, 1);
+  --light-blue: rgba(72, 201, 255, 1);
+  --dark-blue: rgba(44, 62, 80, 1);
+  --dark-blue-hover: rgb(31, 45, 58);
+  --ocean-blue: rgba(0, 119, 190, 1);
+  --sky-blue: rgb(181, 220, 236);
+  --background-color: rgba(135, 206, 235, 1);
+}
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: var(--background-color);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: var(--sky-blue) !important;
+  width: 100%;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bell {
+  font-size: 25px;
+  color: black !important;
+}
+.noti {
+  background-color: var(--background-color) !important;
+}
+.noti > li > a {
+  color: black !important;
+}
+
+.search {
+  align-items: center;
+  border-radius: 40px !important;
+  width: 100%;
+  padding: 7px 20px;
+  background-color: var(--background-color);
+}
+.navSearch {
+  width: 100vh;
+}
+.searchBox {
+  z-index: 0;
+}
+.search input {
+  color: black !important;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: medium;
+}
+.search:focus {
+  border: 1px solid var(--dark-blue);
+  background-color: var(--sky-blue);
+}
+
+/* navbar section  */
+
+.body {
+  margin-top: 71px;
+}
+.userNavbar .profile {
+  background-color: var(--sky-blue);
+  border-radius: 15px;
+  align-items: center;
+}
+
+.userNavbar .userMenu {
+  background-color: var(--sky-blue);
+  border-radius: 15px;
+}
+
+.userNavbar .userMenu .eachMenu {
+  border-left: 10px solid transparent;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+.eachMenuActive {
+  border-left: 10px solid var(--dark-blue) !important;
+  background-color: rgb(25, 186, 255);
+}
+.userNavbar .userMenu .eachMenu:hover {
+  border-left: 10px solid var(--dark-blue);
+  background-color: rgb(25, 186, 255);
+}
+
+.userNavbar .userMenu .eachMenu:hover a {
+  color: var(--dark-blue);
+}
+
+.userNavbar .userMenu .top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.userNavbar .userMenu .bottom {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.postView {
+  height: 75vh;
+}
+
+/* code */
+.storyScroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.storyScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.col-12:hover + .postView .storyScroll {
+  overflow-x: hidden;
+}
+
+.col-12:hover + .postView .storyScroll:hover {
+  overflow-x: auto;
+}
+
+/* code  */
+.postView .storyScroll > .stroy {
+  display: inline-block;
+}
+.postView .story {
+  position: relative;
+  padding: 0px 5px;
+  height: 180px;
+  flex: 0 0 auto;
+  width: 120px;
+  transition: 0.3s;
+}
+.postView .myStory {
+  border-radius: 10px;
+  width: 110px;
+  padding: 0px 10px;
+  margin: 0px 5px;
+  flex: 0 0 auto;
+  background-color: var(--sky-blue);
+}
+.postView .myStory:hover {
+  background-color: rgb(49, 193, 255);
+}
+.postView .myStory .myStoryColor {
+  color: var(--ocean-blue) !important;
+  font-weight: bolder;
+}
+.postView .story img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.postView .myStory .plus {
+  top: 45%;
+  left: 43%;
+  position: relative;
+  font-size: larger;
+  color: var(--ocean-blue);
+}
+.storyProfile {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.storyProfile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* Maintain aspect ratio */
+}
+.storyName {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: small;
+}
+
+/* right menu */
+.messageBoxHeader {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.messageBoxHeader .messageLogo {
+  margin-top: 1px;
+}
+.messageChatProfile {
+  display: flex;
+  align-items: center;
+}
+.messageChatProfile .messageChat {
+  display: flex;
+  flex-direction: column;
+}
+.messageChatProfile .messageChat > div {
+  font-size: small;
+}
+
+.messageScroll {
+  max-height: 22vh;
+  overflow-y: auto;
+}
+.messageScroll::-webkit-scrollbar {
+  display: none;
+}
+.btnPrimary {
+  background-color: var(--light-blue) !important;
+}
+.btnPrimary:hover {
+  background-color: rgb(25, 186, 255) !important;
+}
+.friendRequest {
+  max-height: 36vh;
+  overflow-y: auto;
+}
+.friendRequest::-webkit-scrollbar {
+  display: none;
+}
+
+.postCreateInputBox {
+  background-color: var(--sky-blue);
+  width: 100%;
+  margin: auto;
+  border-radius: 35px;
+  padding: 10px;
+}
+.postCreateInputBox input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-left: 2rem;
+  font-size: 15px;
+  width: 500px;
+}
+
+.postCreateInputBox button {
+  border-radius: 35px;
+  background-color: var(--background-color);
+  font-weight: 900;
+}
+.postCreateInputBox button:hover {
+  background-color: rgb(25, 186, 255) !important;
+}
+
+.postView .profile {
+  background-color: var(--sky-blue);
+  border-radius: 15px;
+  align-items: center;
+}
+.actionLog {
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+.actionLogHover {
+  background-color: var(--background-color);
+}
+.actionLogHover:hover {
+  cursor: pointer;
+  background-color: rgb(25, 186, 255) !important;
+  transition: 0.3s;
+}
+input::placeholder {
+  color: black;
+}
+.liked {
+  color: rgb(230, 0, 0); /* Change to your desired liked color */
+}
+.profileIcon {
+  margin-left: auto;
+}
+.shared {
+  color: blue;
+}
+.notification {
+  height: 40vh;
+  overflow: auto;
+}
+
+.notification::-webkit-scrollbar {
+  display: none;
+}

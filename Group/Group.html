@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trend Flow | Group</title>
+    <link
+      rel="stylesheet"
+      href="../MDB5-STANDARD-UI-KIT-Free-7/css/mdb.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style3.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="navbarParent">
+      <div
+        class="navbarTop d-flex justify-content-between align-items-center p-2"
+      >
+        <div class="w-25">
+          <div class="d-flex align-items-center justify-content-start ms-5">
+            <img
+              src="../Image_Login/trend-flow-high-resolution-logo-transparent.png"
+              class="me-3 ms-1"
+              height="50px"
+              alt=""
+              srcset=""
+            />
+            <div class="fw-bold name text-black">Trend Flow.</div>
+          </div>
+        </div>
+        <div class="w-50">
+          <div class="form-outline shadow-sm d-flex search m-auto">
+            <div for="">
+              <i class="text-dark fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="search"
+              id="form1"
+              class="w-100"
+              aria-label="Search"
+              placeholder="Search Trend Flow"
+            />
+          </div>
+        </div>
+        <div class="w-25">
+          <div class="d-flex align-items-between justify-content-center">
+            <a class="fw-bold text-black me-5" href="../AboutUs/About_us.html"
+              >About</a
+            >
+            <a class="fw-bold text-black" href="../Support/Support.html"
+              >Support</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="container-fluid px-5 body">
+      <div class="row mt-2">
+        <div class="col-2" data-aos="fade-right">
+          <div class="userNavbar p-2">
+            <a href="../Profile/Profile.html">
+              <div class="profile w-100 p-3 mt-2 shadow d-flex mb-3">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                  class="rounded-circle me-3"
+                  height="55"
+                  alt="Black and White Portrait of a Man"
+                  loading="lazy"
+                />
+                <div class="userName">
+                  <div class="text-dark"><b>Moe Yan Htun</b></div>
+                  <div class="text-dark">@moeyan</div>
+                </div>
+              </div>
+            </a>
+            <div class="userMenu shadow mb-3">
+              <a class="text-dark" href="../Dashboard/Dashboard.html">
+                <div class="eachMenu top p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-house"></i>
+                    </div>
+                    <div class="ms-1">Home</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Friend/Friend.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-user"></i>
+                    </div>
+                    <div class="ms-1">Friend</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="">
+                <div class="eachMenu eachMenuActive p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="ms-1">Group</div>
+                  </div>
+                </div>
+              </a>
+              <a class="text-dark" href="../Message/message.html">
+                <div class="eachMenu p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-message"></i>
+                    </div>
+                    <div class="ms-1">Messages</div>
+                  </div>
+                </div>
+              </a>
+
+              <a class="text-dark" href="../index.html">
+                <div class="eachMenu bottom p-3">
+                  <div class="d-flex">
+                    <div class="w-25">
+                      <i class="ms-2 me-4 fa-solid fa-right-from-bracket"></i>
+                    </div>
+                    <div class="ms-1">Logout</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="profile w-100 p-3 shadow mb-3">
+              <div class="">
+                <p class="fw-bold text-dark">Notification</p>
+              </div>
+              <div class="notification" id="_notification"></div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="col-7 px-3 postView mt-3">
+          <div class="fw-bolder fs-4 text-dark">Recenty Activity</div>
+          <div class="">
+            <div class="profile shadow p-3 mt-2 w-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div class="d-flex align-items-center">
+                  <div class="group-photo">
+                    <img
+                      src="https://developer.apple.com/wwdc23/hero/endframes/p3-startframe-large_2x.jpg"
+                      class="rounded-5 me-3"
+                      height="55"
+                    />
+                    <img
+                      src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                      class="rounded-circle me-3 profile-photo"
+                      height="25"
+                    />
+                  </div>
+                  <div class="userName">
+                    <div class="text-dark">
+                      <b>Apple Community Support</b
+                      ><i class="ms-2 me-4 fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="">
+                      <small
+                        ><b>Timcook </b>.
+                        <span class="text-primary">Admin</span> . 10 May at
+                        23:06</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <i class="fs-4 fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <p>
+                Tim Cook picked up the mantle from Steve Jobs as CEO of Apple
+                over a decade ago and grew it into a multi-trillion dollar
+                company. Now, as Cook nears traditional retirement age,
+                speculation abounds about who will succeed him.
+              </p>
+              <div class="pb-2">
+                <img
+                  src="https://images.hindustantimes.com/tech/img/2022/09/07/960x540/APPLE-EVENT-PRODUCTS-1_1646799206724_1662538450042_1662538450042.JPG"
+                  class="w-100 rounded-5"
+                  alt=""
+                />
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex p-2">
+                  <i class="fs-4 fa-solid fa-heart me-3"></i>
+                  <div id="_reactionCount">12.1 K</div>
+                </div>
+                <div class="d-flex">
+                  <div class="d-flex p-2 me-2">
+                    <i class="fs-4 fa-solid fa-comment me-2"></i>
+                    <div id="_shareCount">100 K</div>
+                  </div>
+                  <div class="d-flex p-2">
+                    <i class="fs-4 fa-solid fa-share me-2"></i>
+                    <div id="_shareCount">14 K</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="actionLog p-3">
+                <div class="row">
+                  <div class="col-4">
+                    <div
+                      id="like-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Love</div>
+                      <i class="fs-4 fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      class="d-flex like-button actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Comment</div>
+                      <i class="fs-4 fa fa-comment"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      id="share-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Share</div>
+                      <i class="fs-4 fa-solid fa-share"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="group_post">
+            <div class="profile shadow p-3 mt-2 w-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div class="d-flex align-items-center">
+                  <div class="group-photo">
+                    <img
+                      src="https://developer.apple.com/wwdc23/hero/endframes/p3-startframe-large_2x.jpg"
+                      class="rounded-5 me-3"
+                      height="55"
+                    />
+                    <img
+                      src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+                      class="rounded-circle me-3 profile-photo"
+                      height="25"
+                    />
+                  </div>
+                  <div class="userName">
+                    <div class="text-dark">
+                      <b>Apple Community Support</b>
+                    </div>
+                    <div class="">
+                      <small
+                        ><b>Timcook </b>.
+                        <span class="text-primary">Admin</span> . 10 May at
+                        23:06</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <i class="fs-4 fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <p>
+                Tim Cook picked up the mantle from Steve Jobs as CEO of Apple
+                over a decade ago and grew it into a multi-trillion dollar
+                company. Now, as Cook nears traditional retirement age,
+                speculation abounds about who will succeed him.
+              </p>
+              <div class="pb-2">
+                <img
+                  src="https://images.hindustantimes.com/tech/img/2022/09/07/960x540/APPLE-EVENT-PRODUCTS-1_1646799206724_1662538450042_1662538450042.JPG"
+                  class="w-100 rounded-5"
+                  alt=""
+                />
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex p-2">
+                  <i class="fs-4 fa-solid fa-heart me-3"></i>
+                  <div id="_reactionCount">12.1K</div>
+                </div>
+                <div class="d-flex">
+                  <div class="d-flex p-2 me-2">
+                    <i class="fs-4 fa-solid fa-comment me-2"></i>
+                    <div id="_shareCount">100K</div>
+                  </div>
+                  <div class="d-flex p-2">
+                    <i class="fs-4 fa-solid fa-share me-2"></i>
+                    <div id="_shareCount">14K</div>
+                  </div>
+                </div>
+              </div>
+              <div class="actionLog p-3">
+                <div class="row">
+                  <div class="col-4">
+                    <div
+                      id="like-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Love</div>
+                      <i class="fs-4 fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      class="d-flex like-button actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Comment</div>
+                      <i class="fs-4 fa fa-comment"></i>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                      id="share-btn"
+                      class="reaction-button like-button d-flex actionLogHover p-2 rounded-5 justify-content-center align-items-center"
+                    >
+                      <div class="me-3">Share</div>
+                      <i class="fs-4 fa-solid fa-share"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="userNavbar px-2 py-3 col-3">
+          <div class="profile w-100 p-3 shadow mb-3">
+            <div class="messageBoxHeader d-flex groupList">
+              <div class="messageHeader text-dark fw-bold">Group</div>
+              <div class="messageLogo">
+                <i class="fs-5 fw-bold text-dark fa-solid fa-pen-to-square"></i>
+              </div>
+            </div>
+            <div
+              class="searchBox shadow-sm form-outline d-flex search my-3 m-auto"
+              data-mdb-input-init
+            >
+              <div for="">
+                <i class="text-dark fa-solid fa-magnifying-glass"></i>
+              </div>
+              <input
+                type="search"
+                id="form1"
+                class="w-100"
+                aria-label="Search"
+                placeholder="Search Group"
+              />
+            </div>
+            <div class="messageScroll" id="_messageChatProfile"></div>
+          </div>
+          <hr />
+          <div class="profile w-100 p-3 shadow mb-3">
+            <div class="">
+              <p class="fw-bold text-dark">Group You've Joined</p>
+            </div>
+            <div class="friendRequest" id="_groupList"></div>
+          </div>
+        </div>
+        <footer class="">
+          <div
+            class="d-flex justify-content-between align-items-center text-dark"
+          >
+            <p>© 2024 Trend Flow. All rights reserved.</p>
+            <p>
+              Need help? Email us at
+              <a href="mailto:support@trendflow.com">support@trendflow.com</a>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./nofication.js"></script>
+  </body>
+  <script src="../MDB5-STANDARD-UI-KIT-Free-7/js/mdb.umd.min.js"></script>
+  <script src="index2.js"></script>
+  <script src="index3.js"></script>
+</html>
